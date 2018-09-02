@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 16)
+    (drawings 17)
     (tracks 0)
     (zones 0)
     (modules 5)
@@ -10,6 +10,13 @@
   )
 
   (page A4)
+  (title_block
+    (title MegaBiels)
+    (date 2018-09-02)
+    (rev v1.0)
+    (company "Septillion (Timo Engelgeer)")
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
@@ -58,7 +65,7 @@
     (pad_size 1.524 1.524)
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.2)
-    (aux_axis_origin 0 0)
+    (aux_axis_origin 55 45)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x00030_80000001)
@@ -369,6 +376,7 @@
     (fp_line (start 5.21 -7.11) (end 5.31 -7.04) (layer B.Cu) (width 0.15))
   )
 
+  (target plus (at 55 45) (size 5) (width 0.15) (layer Edge.Cuts))
   (gr_text "Septillion 2018\n" (at 130 70) (layer B.SilkS)
     (effects (font (size 3 3) (thickness 0.4)) (justify mirror))
   )
